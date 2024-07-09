@@ -1,0 +1,8 @@
+.dashBoard {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #F8F7F1;
+    width: 344px;
+    height: 100vh;
+}
