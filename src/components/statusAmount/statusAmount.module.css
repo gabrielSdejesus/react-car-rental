@@ -18,10 +18,13 @@
 .sub {
     display: flex;
     flex-direction: column;
+
     width: 288px;
+    padding: 20px 15px 25px;
+    
     border-radius: 8px;
     background-color: #FDFDFD;
-    padding: 20px 15px 25px;
+    box-shadow: 0px 8px 24px rgb(69, 69, 80, 0.1);
 }
 
 .dflexCenter {
@@ -68,8 +71,8 @@
     font-size: 20px;
 }
 
-.blue {
-    color: blue;
+.green {
+    color: #52C93F;
 }
 
 .red {
@@ -96,4 +99,6 @@
 .subTitle {
     display: flex;
     align-items: center;
+
+    font-weight: 400;
 }

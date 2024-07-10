@@ -1,13 +1,12 @@
+import Style from './statusAmount.module.css';
 
-import Style from './miniStatus.module.css';
-
-function MiniStatus (props) {
+function StatusAmount (props) {
     
-    const colorPercentMid = props.percentage > 0 ? Style.blue : Style.red; 
+    const colorPercentMid = props.percentage > 0 ? Style.green : Style.red; 
     const arrowMid = props.percentage > 0 ? '↑' : '↓';
 
     return (
-        <div className={Style.firstDashboard}>
+        <div>
             {props.titlePrincipal && (
                 <div className={Style.m35px}>
                     <b className={Style.title}>{props.titlePrincipal} </b><br/>
@@ -39,4 +38,4 @@ function MiniStatus (props) {
 }
 
 
-export default MiniStatus;
+export default StatusAmount;
