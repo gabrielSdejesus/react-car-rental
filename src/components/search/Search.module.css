@@ -1,0 +1,33 @@
+.container {
+    width: 430px;
+    height: 48px;
+}
+
+.boxSearch {
+    display: flex;
+    justify-content: space-evenly;
+    width: 366px;
+    height: 48px;
+
+    box-shadow: 0px 8px 24px rgb(69, 69, 80, 0.1);
+    border-radius: 12px;
+
+    margin: 100px;
+}
+
+.inputSearch {
+    min-width: 75%;
+    opacity: 60%;
+    border: none;
+    
+    font-size: 16px;
+    color: #A3A3A3;
+}
+
+.inputSearch:focus {
+    outline: none;
+}
+
+.magnifierSVG {
+    width: 19px;
+}
