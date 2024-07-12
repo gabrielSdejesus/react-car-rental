@@ -71,3 +71,7 @@
 .hr {
     opacity: 50%;
 }
+
+a {
+    text-decoration: none;
+}

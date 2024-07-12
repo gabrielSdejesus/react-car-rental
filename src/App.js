@@ -1,13 +1,10 @@
 import Style from './App.module.css';
-import DashBoard from './pages/dashboard/dashboard.js';
-import Menu from './components/menu/menu.js';
+
+import HomePage from './pages/homePage/homePage';
 
 function App() {
   return (
-    <main className={`${Style.dFlex}`}>
-      <Menu />
-      <DashBoard/>
-    </main>
+    <HomePage/>
   );
 }
 

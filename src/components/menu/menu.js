@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Style from './menu.module.css';
 
 import DashBoardSVG from '../../assets/svg/Dashboard.svg';
@@ -12,8 +13,8 @@ import TransactionSVG from '../../assets/svg/Transaction.svg';
 import PaymentSVG from '../../assets/svg/Payment.svg';
 
 const menuItems = [
-    { name: "Dashboard", svg: DashBoardSVG },
-    { name: "Drivers", svg: CarSVG },
+    { name: "Dashboard", svg: DashBoardSVG, href: '/'},
+    { name: "Drivers", svg: CarSVG , href: '/drivers'},
     { name: "Bookins", svg: BookingSVG },
     { name: "Notifications", svg: BellSVG },
     { name: "Settings", svg: SettingsSVG },
@@ -25,9 +26,13 @@ const menuItems = [
 
 function Menu() {
     const [selectedItem, setSelectedItem] = useState(0);
+    const navigate = useNavigate();
 
-    const handleItemClick = (index) => {
+    const handleItemClick = (index, href) => {
         setSelectedItem(index);
+        if (href) {
+            navigate(href);
+        }
     };
 
     return (
@@ -44,7 +49,7 @@ function Menu() {
                         <div 
                             key={index}
                             className={`${Style.item} ${Style.dFlex} ${Style.alignItemsCenter} ${selectedItem === index ? `${Style.blue} ${Style.op100}` : ''}`}
-                            onClick={() => handleItemClick(index)}
+                            onClick={() => handleItemClick(index, item.href)}
                         >
                             <img src={item.svg} alt={item.name} className={Style.mR1Vh} />
                             <h4 className={Style.fontDefault}>{item.name}</h4>
