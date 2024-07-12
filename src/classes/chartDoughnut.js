@@ -9,11 +9,6 @@ class ChartDoughnut {
         });
     }
 
-    update(data) {
-        this.chart.data.datasets[0].data = data;
-        this.chart.update();
-    }
-
     destroy() {
         this.chart.destroy();
     }
