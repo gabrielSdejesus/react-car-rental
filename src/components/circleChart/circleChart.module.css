@@ -3,7 +3,7 @@
     flex-direction: column;
     
     width: 288px;
-    height: 360px;
+    height: 100%;
 
     border-radius: 8px;
     background-color: #FDFDFD;
@@ -84,4 +84,13 @@ canvas {
 .dataDetails {
     display: flex;
     align-items: center;
+}
+
+.smallCircle {
+    width: 16px;
+    height: 16px;
+
+    border-radius: 100px;
+
+    margin-right: 8px;
 }

@@ -29,7 +29,12 @@ function DashBoard() {
                     amountLastWeek="22658.00"/>
                 <CicleChart/>
             </div>
-            <Search/>
+            <div style={{}}>
+                <Search/>
+                <div>
+
+                </div>
+            </div>
         </div>
     );
 }

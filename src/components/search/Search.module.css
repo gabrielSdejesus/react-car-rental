@@ -1,6 +1,8 @@
 .container {
-    width: 430px;
+    display: flex;
+
     height: 48px;
+    margin: 100px;
 }
 
 .boxSearch {
@@ -11,8 +13,6 @@
 
     box-shadow: 0px 8px 24px rgb(69, 69, 80, 0.1);
     border-radius: 12px;
-
-    margin: 100px;
 }
 
 .inputSearch {
@@ -30,4 +30,13 @@
 
 .magnifierSVG {
     width: 19px;
+}
+
+.bell {
+    width: 20px;
+    margin-right: 40px;
+}
+
+.colorBlack {
+    color: black;
 }
