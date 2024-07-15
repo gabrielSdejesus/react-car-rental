@@ -1,4 +1,4 @@
-import Style from './statusAmount.module.css';
+import Style from './StatusAmount.module.css';
 
 function StatusAmount (props) {
     

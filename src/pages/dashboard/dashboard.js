@@ -1,8 +1,11 @@
 import { useEffect } from 'react';
-import Style from './dashboard.module.css';
-import StatusAmount from '../../components/statusAmount/statusAmount';
-import CicleChart from '../../components/circleChart/circleChart';
+
+import Style from './Dashboard.module.css';
+
+import StatusAmount from '../../components/statusAmount/StatusAmount';
+import CicleChart from '../../components/circleChart/CircleChart';
 import Search from '../../components/search/Search';
+import CarAvailability from '../../components/carAvailability/CarAvailability';
 
 function DashBoard() {
     
@@ -11,7 +14,7 @@ function DashBoard() {
       }, []);
 
     return (
-        <div style={{width: '100vh', height: '100%', display: 'flex'}}>
+        <div style={{display: 'flex'}}>
             <div className={Style.dashBoard}>
                 <StatusAmount 
                     percentage={-1.5} 
@@ -31,9 +34,7 @@ function DashBoard() {
             </div>
             <div style={{}}>
                 <Search/>
-                <div>
-
-                </div>
+                <CarAvailability/>
             </div>
         </div>
     );

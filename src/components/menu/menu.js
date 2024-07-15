@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Style from './menu.module.css';
+import Style from './Menu.module.css';
 
 import DashBoardSVG from '../../assets/svg/Dashboard.svg';
 import BellSVG from '../../assets/svg/Bell.svg';

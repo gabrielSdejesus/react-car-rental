@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import Style from './circleChart.module.css';
+import Style from './CircleChart.module.css';
 import Chart from 'chart.js/auto';
 
 const CircleChart = () => {

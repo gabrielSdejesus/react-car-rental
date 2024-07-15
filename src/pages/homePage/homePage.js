@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Style from './homePage.module.css';
+import Style from './HomePage.module.css';
 
-import Menu from "../../components/menu/menu";
+import Menu from "../../components/menu/Menu";
 
-import DashBoard from "../dashboard/dashboard";
+import DashBoard from "../dashboard/Dashboard";
 
 export default function HomePage() {
     return (
