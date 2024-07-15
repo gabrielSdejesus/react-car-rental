@@ -7,6 +7,89 @@
     box-shadow: 0px 8px 24px rgb(69, 69, 80, 0.1);
 }
 
+.containerInputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+select {
+    width: 213px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: #DEDEDE;
+    color: #656575;
+
+    outline: none;
+
+    background-image: url("../../assets//svg/CarGrey.svg");
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+    cursor: pointer;
+}
+
+option {
+    width: 213px;
+    height: 48px;   
+}
+
+.pL40PX{
+    padding-left: 40px;
+}
+
 .grey {
     color: #656575;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url("../../assets/svg/CalendarChecked.svg");
+    width: 24px;
+    height: 24px;
+
+    margin-right: 10px;
+}
+
+.dateInput {
+    width: 166px;
+    height: 46px;
+
+    padding-left: 20px;
+
+    border: solid 1px;
+    border-radius: 8px 0px 0px 8px;
+    border-color: #DEDEDE;
+    color: #656575;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background-image: url("../../assets/svg/Clock.svg");
+    width: 24px;
+    height: 24px;
+
+    margin-right: 10px;
+}
+
+.timeInput {
+    width: 145px;
+    height: 46px;
+
+    padding-left: 20px;
+
+    border: solid 1px;
+    border-radius: 0px 8px 8px 0px;
+    border-color: #DEDEDE;
+    color: #656575
+}
+
+.buttonCheck {
+    width: 121px;
+    height: 48px;
+
+    border-radius: 4px;
+    border: none;
+
+    background-color: #006AFF;
+    color: white;
+
+    font-size: 16px;
 }

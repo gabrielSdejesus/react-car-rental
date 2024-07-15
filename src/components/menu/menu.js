@@ -38,7 +38,7 @@ function Menu() {
     return (
         <div id="menu" className={Style.menu}>
             <div className={`${Style.dFlex} ${Style.alignItemsCenter} ${Style.flexDirectionColumn}`}>
-                <img src={FrameSVG} alt="Icon CarRent" className={Style.pT1Vh} />
+                <img src={FrameSVG} alt="Icon CarRent" style={{padding: '10px'}}/>
                 <h1 className={`${Style.fontDefault} ${Style.titleMenu} ${Style.dFlex}`}>CAR RENT</h1>
             </div>
             <div id="listItem">
@@ -51,7 +51,7 @@ function Menu() {
                             className={`${Style.item} ${Style.dFlex} ${Style.alignItemsCenter} ${selectedItem === index ? `${Style.blue} ${Style.op100}` : ''}`}
                             onClick={() => handleItemClick(index, item.href)}
                         >
-                            <img src={item.svg} alt={item.name} className={Style.mR1Vh} />
+                            <img src={item.svg} alt={item.name} style={{marginRight: '10px'}} />
                             <h4 className={Style.fontDefault}>{item.name}</h4>
                         </div>
                     )

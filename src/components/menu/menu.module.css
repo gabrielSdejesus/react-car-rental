@@ -1,7 +1,6 @@
 .menu {
     background-color: #1A1919;
-    max-width: 240px;
-    height: 100vh;
+    min-width: 240px;
 }
 
 .dFlex {
@@ -23,18 +22,10 @@
 }
 
 .titleMenu {
-    padding: 1vh 0;
+    padding: 5px 0;
     font-size: 30px;
     font-weight: 600;
     justify-content: center;
-}
-
-.mR1Vh {
-    margin-right: 1vh;
-}
-
-.pT1Vh {
-    padding-top: 1vh;
 }
 
 .w90 {
@@ -45,7 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 0.7vh 1.5vh;
+    margin: 0px 10px 0px 10px;
     padding: 15px;
     border-radius: 4px;
     opacity: 70%;
@@ -74,4 +65,8 @@
 
 a {
     text-decoration: none;
+}
+
+.p10PX {
+    padding: 10px;
 }
