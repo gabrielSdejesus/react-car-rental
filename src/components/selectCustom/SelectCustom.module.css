@@ -1,0 +1,78 @@
+.containerSelect {
+    cursor: pointer;
+}
+
+.selectButton {
+    width: 211px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #DEDEDE;
+
+    color: #656575;
+    outline: none;
+
+    background-image: url("../../assets//svg/CarGrey.svg");
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.selectValue {
+    border: none;
+    margin-left: 40px;
+    font-size: 16px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    cursor: pointer;
+
+    color: #656575;
+}
+
+.selectValue:focus {
+    outline: none;
+}
+
+.iconVectorSVG {
+    width: 12px;
+    height: 12px;
+
+    margin-right: 15px;
+}
+
+.optionsUl {
+    display: none;
+    padding-inline-start: 0px;
+    margin: 0px;
+
+    width: 200px;
+    border: 1px solid #DEDEDE;
+    border-radius: 0px 0px 8px 8px;
+
+    position: absolute;
+    margin-top: 48px;
+    z-index: 1;
+}
+
+.optionsLi {
+    list-style: none;
+    font-size: 15px;
+    padding: 2px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    background-color: #dedede4a;
+}
+
+.optionsLi:hover {
+    background-color: #DEDEDE;
+}

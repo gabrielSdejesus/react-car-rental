@@ -32,7 +32,7 @@ function DashBoard() {
                     amountLastWeek="22658.00"/>
                 <CicleChart/>
             </div>
-            <div style={{}}>
+            <div>
                 <Search/>
                 <CarAvailability/>
             </div>

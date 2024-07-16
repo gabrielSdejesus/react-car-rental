@@ -12,7 +12,7 @@
     justify-content: space-evenly;
 }
 
-select {
+.selectCar {
     width: 213px;
     height: 48px;
     border-radius: 8px;
@@ -36,7 +36,7 @@ select {
     color: #656575;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+.dateInput::-webkit-calendar-picker-indicator {
     background-image: url("../../assets/svg/CalendarChecked.svg");
     width: 24px;
     height: 24px;
@@ -56,7 +56,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #656575;
 }
 
-input[type="time"]::-webkit-calendar-picker-indicator {
+.timeInput::-webkit-calendar-picker-indicator {
     background-image: url("../../assets/svg/Clock.svg");
     width: 24px;
     height: 24px;
