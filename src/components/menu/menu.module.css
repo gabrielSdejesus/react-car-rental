@@ -1,6 +1,7 @@
 .menu {
     background-color: #1A1919;
     min-width: 240px;
+    min-height: 100vh;
 }
 
 .dFlex {

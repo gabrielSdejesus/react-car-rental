@@ -28,11 +28,6 @@ select {
     cursor: pointer;
 }
 
-option {
-    width: 213px;
-    height: 48px;   
-}
-
 .pL40PX{
     padding-left: 40px;
 }
