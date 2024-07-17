@@ -6,6 +6,7 @@ import StatusAmount from '../../components/statusAmount/StatusAmount';
 import CicleChart from '../../components/circleChart/CircleChart';
 import Search from '../../components/search/Search';
 import CarAvailability from '../../components/carAvailability/CarAvailability';
+import LiveCarStatus from '../../components/liveCarStatus/LiveCarStatus';
 
 function DashBoard() {
     
@@ -33,6 +34,7 @@ function DashBoard() {
                 <CicleChart/>
             </div>
             <div>
+                <LiveCarStatus/>
                 <Search/>
                 <CarAvailability/>
             </div>
