@@ -56,6 +56,10 @@
     color: #656575;
 }
 
+.dateInput:focus {
+    outline: none;
+}
+
 .timeInput::-webkit-calendar-picker-indicator {
     background-image: url("../../assets/svg/Clock.svg");
     width: 24px;
@@ -74,6 +78,10 @@
     border-radius: 0px 8px 8px 0px;
     border-color: #DEDEDE;
     color: #656575
+}
+
+.timeInput:focus {
+    outline: none;
 }
 
 .buttonCheck {
